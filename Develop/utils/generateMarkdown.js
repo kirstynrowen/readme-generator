@@ -70,7 +70,7 @@ function generateMarkdown(data) {
 
   To install the necessary dependencies, run the command: ${data.installation}
 
-  ##Usage
+  ## Usage
   ${renderLicenseBadge(data.license)}
   ${data.usage}
 
