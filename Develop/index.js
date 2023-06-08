@@ -69,7 +69,7 @@ function init() {
     inquirer.prompt(questions)
     .then((userInput) => {
         const markdown = generateMarkdown(userInput);
-        writeToFile('README.me', markdown);
+        writeToFile('README.md', markdown);
     })
 }
 
